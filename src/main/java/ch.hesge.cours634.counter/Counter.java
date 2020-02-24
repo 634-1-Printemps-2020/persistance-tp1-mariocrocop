@@ -22,7 +22,7 @@ public class Counter implements ICounter {
 
     //Permet d'éviter les valeur négatives
     protected void checkMin(int step) throws CounterException {
-        if(cmpt+step < 0){
+        if(cmpt+step <= 0){
             throw new CounterException("La valeur du compteur ne peux pas être négative");
         }
     }

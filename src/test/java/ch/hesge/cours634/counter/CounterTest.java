@@ -17,16 +17,21 @@ public class CounterTest {
     public void add() throws CounterException {
         Counter counter = new Counter();
         counter.add(5);
-        Assert.assertEquals(2,counter.getValue());
-        //Assert.assertEquals(2,counter.getValue()); //On vérifie si la valeur est correct
+        Assert.assertEquals(5,counter.getValue()); //On vérifie si la valeur est correct
+    }
+
+    @org.junit.Test (expected = CounterException.class) //On attent une exception
+    public void checkMin() throws CounterException {
+        Counter counter = new Counter();
+        counter.add(-1);
     }
 
     @org.junit.Test
-    public void checkMin() {
-
-    }
-
-    @org.junit.Test
-    public void getValue() {
+    public void getValue() throws CounterException {
+        Counter counter = new Counter();
+        counter.add(5);
+        counter.add(-5);
+        counter.add(1);
+        Assert.assertEquals(1,counter.getValue());
     }
 }

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb2659b5-5328-4d41-855a-aede7651ad6b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Revision/ch/hesge/cours634/counter/UpperLimitedPositiveCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Revision/ch/hesge/cours634/counter/UpperLimitedPositiveCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/UpperLimitedPositiveCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/UpperLimitedPositiveCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ch/hesge/cours634/counter/CounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/hesge/cours634/counter/CounterTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,13 +78,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CounterTest.inc">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.UpperLimitedPositiveCounterTest">
+    <configuration name="CounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Revision" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.hesge.cours634.counter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.hesge.cours634.counter" />
+      <option name="MAIN_CLASS_NAME" value="ch.hesge.cours634.counter.CounterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CounterTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Revision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.hesge.cours634.counter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.hesge.cours634.counter" />
+      <option name="MAIN_CLASS_NAME" value="ch.hesge.cours634.counter.CounterTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,7 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpperLimitedPositiveCounterTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UpperLimitedPositiveCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Revision" />
       <extension name="coverage">
         <pattern>
@@ -113,13 +136,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="ch.hesge.cours634.counter" />
       <option name="MAIN_CLASS_NAME" value="ch.hesge.cours634.counter.UpperLimitedPositiveCounterTest" />
-      <option name="METHOD_NAME" value="add" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpperLimitedPositiveCounterTest.inc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UpperLimitedPositiveCounterTest.getValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Revision" />
       <extension name="coverage">
         <pattern>
@@ -129,7 +151,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ch.hesge.cours634.counter" />
       <option name="MAIN_CLASS_NAME" value="ch.hesge.cours634.counter.UpperLimitedPositiveCounterTest" />
-      <option name="METHOD_NAME" value="inc" />
+      <option name="METHOD_NAME" value="getValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,10 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UpperLimitedPositiveCounterTest" />
+        <item itemvalue="JUnit.UpperLimitedPositiveCounterTest.getValue" />
+        <item itemvalue="JUnit.CounterTest" />
+        <item itemvalue="JUnit.CounterTest.add" />
         <item itemvalue="JUnit.CounterTest.inc" />
-        <item itemvalue="JUnit.UpperLimitedPositiveCounterTest.inc" />
-        <item itemvalue="JUnit.UpperLimitedPositiveCounterTest.add" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582533101111</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ajout des Test">
+      <created>1582548287662</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582548287662</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">

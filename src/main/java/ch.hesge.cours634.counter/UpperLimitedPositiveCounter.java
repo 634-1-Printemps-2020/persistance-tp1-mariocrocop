@@ -28,7 +28,7 @@ public class UpperLimitedPositiveCounter extends Counter {
     }
 
     private void checkMax(int step) throws CounterException {
-        if (cmpt+step > max){
+        if (cmpt+step >= max){
             throw new CounterException("Le compteur a atteint sa limite !");
         }
     }
