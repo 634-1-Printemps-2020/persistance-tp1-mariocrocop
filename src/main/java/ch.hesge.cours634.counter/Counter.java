@@ -16,7 +16,15 @@ public class Counter implements ICounter {
 
     @Override
     public void add(int step) throws CounterException {
+        checkMin(step);
         cmpt = cmpt + step;
+    }
+
+    //Permet d'éviter les valeur négatives
+    protected void checkMin(int step) throws CounterException {
+        if(cmpt+step < 0){
+            throw new CounterException("La valeur du compteur ne peux pas être négative");
+        }
     }
 
     @Override

@@ -14,19 +14,20 @@ public class UpperLimitedPositiveCounter extends Counter {
 
     @Override
     public void inc() throws CounterException {
-        if (cmpt+1 > max){
-            throw new CounterException("Le compteur a atteint sa limite !");
-        }else {
-            cmpt++;
-        }
+        checkMax(1);
+        cmpt++;
     }
 
     @Override
     public void add(int step) throws CounterException {
+        checkMin(step);
+        checkMax(step);
+        cmpt = cmpt + step;
+    }
+
+    private void checkMax(int step) throws CounterException {
         if (cmpt+step > max){
             throw new CounterException("Le compteur a atteint sa limite !");
-        }else {
-            cmpt = cmpt + step;
         }
     }
 
