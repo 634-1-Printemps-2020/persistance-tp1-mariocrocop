@@ -16,8 +16,9 @@ public class CounterTest {
     @org.junit.Test
     public void add() throws CounterException {
         Counter counter = new Counter();
-        counter.add(2);
-        Assert.assertEquals(2,counter.getValue()); //On vérifie si la valeur est correct
+        counter.add(5);
+        Assert.assertEquals(2,counter.getValue());
+        //Assert.assertEquals(2,counter.getValue()); //On vérifie si la valeur est correct
     }
 
     @org.junit.Test
