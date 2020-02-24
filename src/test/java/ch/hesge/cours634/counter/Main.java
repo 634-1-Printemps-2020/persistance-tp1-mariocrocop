@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Hello World!");
 
         //Création des compteurs
-        Counter c1 = new Counter(3);
+        Counter c1 = new Counter();
         Counter c2 = new UpperLimitedPositiveCounter(3);
 
         //Incrémentation

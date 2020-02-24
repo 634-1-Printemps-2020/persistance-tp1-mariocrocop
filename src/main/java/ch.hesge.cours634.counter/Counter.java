@@ -3,10 +3,10 @@ package ch.hesge.cours634.counter;
 public class Counter implements ICounter {
 
     protected int cmpt = 0; //Compteur
-    protected int max; //Compteur max
+    //protected int max; //Compteur max
 
-    public Counter(int max) {
-        this.max = max;
+    public Counter() {
+        //this.max = max;
     }
 
     @Override

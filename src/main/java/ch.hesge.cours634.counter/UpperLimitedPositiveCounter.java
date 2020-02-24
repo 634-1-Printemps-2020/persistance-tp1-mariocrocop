@@ -2,8 +2,11 @@ package ch.hesge.cours634.counter;
 
 public class UpperLimitedPositiveCounter extends Counter {
 
+    protected int max; //Compteur max
+
     public UpperLimitedPositiveCounter(int max) {
-        super(max);
+        //super(max);
+        this.max =  max;
     }
 
     //private int cmpt = 0; //Compteur
