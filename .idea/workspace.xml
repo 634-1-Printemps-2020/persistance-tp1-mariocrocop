@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bb2659b5-5328-4d41-855a-aede7651ad6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Revision/ch/hesge/cours634/counter/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Revision/ch/hesge/cours634/counter/Counter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Revision/ch/hesge/cours634/counter/UpperLimitedPositiveCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Revision/ch/hesge/cours634/counter/UpperLimitedPositiveCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Revision/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Revision/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/UpperLimitedPositiveCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/UpperLimitedPositiveCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/hesge/cours634/counter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/hesge/cours634/counter/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +22,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -32,15 +34,23 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ch.hesge.cours634.counter" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="ch.hesge.cours634.counter" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
+    <key name="CreateTestDialog.RecentsKey">
       <recent name="ch.hesge.cours634.counter" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -106,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582529643598</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Correction">
+      <created>1582530746055</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582530746055</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">

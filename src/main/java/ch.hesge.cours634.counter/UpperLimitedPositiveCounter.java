@@ -15,14 +15,16 @@ public class UpperLimitedPositiveCounter extends Counter {
     @Override
     public void inc() throws CounterException {
         checkMax(1);
-        cmpt++;
+        //cmpt++;
+        super.add(1);
     }
 
     @Override
     public void add(int step) throws CounterException {
         checkMin(step);
         checkMax(step);
-        cmpt = cmpt + step;
+        //cmpt = cmpt + step;
+        super.add(step);
     }
 
     private void checkMax(int step) throws CounterException {
